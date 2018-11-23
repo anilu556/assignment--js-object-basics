@@ -18,7 +18,10 @@
 // ++ YOUR CODE HERE
 
 
-
+function createHtmlElement(obj){
+  var tag = '<' + obj.element + ' class="' + obj.classNames + '">' + obj.textContent + '</' + obj.element + '>';
+  return tag;
+}
 
 
 
